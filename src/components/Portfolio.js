@@ -3,12 +3,13 @@ import { FaPlus, FaTag } from "react-icons/lib/fa";
 
 import cluster_correction from "../assets/images/portfolio/cluster_correction.png";
 import ISL1 from "../assets/images/portfolio/ISL1.png";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
+import UND from "../assets/images/portfolio/UnDetNam.png";
+import VStroop from "../assets/images/portfolio/VStroop.png";
+import RISE_3 from "../assets/images/portfolio/RISE_3.png";
 import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
+import VerbalStroopPoster from "../assets/images/pdfs/VerbalStroopPoster.pdf";
 
 const Portfolio = () => (
   <section id="portfolio">
@@ -22,12 +23,12 @@ const Portfolio = () => (
         >
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="https://www.ncbi.nlm.nih.gov/pubmed/28847712" title="Cluster Correction">
+              <a href="https://www.ncbi.nlm.nih.gov/pubmed/28847712" title="Cluster Correction Paper">
                 <img alt="Cluster Correction" src={cluster_correction} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Corrections for multiple comparisons in voxel-based lesion-symptom mapping.</h5>
-                    <p>Mirman, Landrigan, Kokolis, Verillo, Ferrara, Pustina, 2017, <em>Neuropsychologia</em></p>
+                    <p>Mirman, D., Landrigan, J., Kokolis, S., Verillo, S., Ferrara, C., Pustina, D. (2017). <em>Neuropsychologia</em></p>
                   </div>
                 </div>
               </a>
@@ -36,12 +37,12 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="https://www.taylorfrancis.com/books/e/9781317213307/chapters/10.4324%2F9781315619224-3" title="">
+              <a href="https://www.taylorfrancis.com/books/e/9781317213307/chapters/10.4324%2F9781315619224-3" title="Performing Irishness Paper">
                 <img alt="" src={ISL1} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>"A President for all of the Irish": Performing Irishness in an interpreted inaugural presidential speech</h5>
-                    <p>Leeson, L., Stewart, M., Ferrara, C., Drexel, I., Nilsson, P., Cooper, M., 2017, <em>Interpreting and the Politics of Recognition</em> </p>
+                    <h5>Performing Irishness in an Interpreted Inaugural Presidential Speech</h5>
+                    <p>Leeson, L., Stewart, M., Ferrara, C., Drexel, I., Nilsson, P., Cooper, M. (2017). <em>Interpreting and the Politics of Recognition</em> </p>
                   </div>
                 </div>
               </a>
@@ -50,12 +51,12 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-03" title="">
-                <img alt="" src={Judah} />
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937813/" title="Frontiers in Psychology">
+                <img alt="Picture Naming" src={UND} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Judah</h5>
-                    <p>Webdesign</p>
+                    <h5>Distinct Effects of Lexical and Semantic Competition during Picture Naming</h5>
+                    <p>Britt, A., Ferrara, C., Mirman, D. (2016).<em>Frontiers in Psychology</em></p>
                   </div>
                 </div>
               </a>
@@ -64,16 +65,13 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-04" title="">
-                <img alt="" src={IntoTheLight} />
+              <a href={VerbalStroopPoster} title="VerbalStroopPoster">
+                <img alt="Verbal Stroop" src={VStroop} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Into The Light</h5>
-                    <p>Photography</p>
+                    <h5>The “Verbal Stroop Task”: A New Paradigm for Assessing Executive Control in Word Retrieval</h5>
+                    <p>Schwartz, Brown, Ferrara, <em>Presented at Clinical Aphasiology </em>(2015)</p>
                   </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
                 </div>
               </a>
             </div>
@@ -81,71 +79,18 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-05" title="">
-                <img alt="" src={Farmerboy} />
+              <a href="https://riseebooks.wixsite.com/access/about-r-i-s-e" title="Rise Books">
+                <img alt="Rise Book" src={RISE_3} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Farmer Boy</h5>
-                    <p>Branding</p>
+                    <h5>"Reading Involves Shared Experience" (R.I.S.E.) eBook Project</h5>
+                    <p>Bimodal-bilingual ebooks. Available in ASL-English, as well as 13 other signed and spoken languages. Now accessible on Youtube and iTunes</p>
                   </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
                 </div>
               </a>
             </div>
           </div>
 
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-06" title="">
-                <img alt="" src={Girl} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Girl</h5>
-                    <p>Photography</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-07" title="">
-                <img alt="" src={Origami} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Origami</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-08" title="">
-                <img alt="" src={Retrocam} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Retrocam</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 
