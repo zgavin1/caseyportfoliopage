@@ -38,7 +38,7 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="https://www.taylorfrancis.com/books/e/9781317213307/chapters/10.4324%2F9781315619224-3" title="Performing Irishness Paper">
-                <img alt="" src={ISL1} />
+                <img alt="ISL Interpreting" src={ISL1} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Performing Irishness in an Interpreted Inaugural Presidential Speech</h5>
