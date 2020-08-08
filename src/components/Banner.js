@@ -6,8 +6,8 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">Casey Ferrara</h1>
       <h3>
-        Prospective Ph.D. student researching linguistics and cognitive neuroscience.
-      </h3> 
+        Psychology Ph.D. student studying the intersection of language and cognition via sign language, spoken language, and gesture.
+      </h3>
       <hr />
       <SocialLinks />
     </div>

@@ -10,11 +10,11 @@ import {
 
 const SocialLinks = () => (
   <ul className="social">
-    {/* <li>
-      <a href="#">
+    <li>
+      <a href="https://twitter.com/csmferrara">
         <FaTwitter />
       </a>
-    </li> */}
+    </li>
     <li>
       <a href="https://www.linkedin.com/in/casey-ferrara-b56b50b1/">
         <FaLinkedin />
@@ -27,6 +27,11 @@ const SocialLinks = () => (
     </li>
     <li>
       <a href="https://www.researchgate.net/profile/Casey_Ferrara">
+        <FaResearchGate />
+      </a>
+    </li>
+    <li>
+      <a href="https://psychology.uchicago.edu/directory/casey-ferrara">
         <FaGraduationCap />
       </a>
     </li>
