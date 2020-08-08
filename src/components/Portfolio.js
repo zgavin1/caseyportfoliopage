@@ -6,10 +6,10 @@ import ISL1 from "../assets/images/portfolio/ISL1.png";
 import UND from "../assets/images/portfolio/UnDetNam.png";
 import VStroop from "../assets/images/portfolio/VStroop.png";
 import RISE_3 from "../assets/images/portfolio/RISE_3.png";
-import Girl from "../assets/images/portfolio/girl.jpg";
-import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
+import TISLR_IMG from "../assets/images/portfolio/TISLRfigure.png"
 import VerbalStroopPoster from "../assets/images/pdfs/VerbalStroopPoster.pdf";
+import TISLR from "../assets/images/pdfs/TISLR_Poster_Ferrara.pdf";
+import Handshape_img from "../assets/images/portfolio/HandshapeFigure.png";
 
 const Portfolio = () => (
   <section id="portfolio">
@@ -65,12 +65,12 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={VerbalStroopPoster} title="VerbalStroopPoster">
-                <img alt="Verbal Stroop" src={VStroop} />
+              <a href="https://riseebooks.wixsite.com/access/about-r-i-s-e" title="Rise Books">
+                <img alt="Rise Book" src={RISE_3} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>The “Verbal Stroop Task”: A New Paradigm for Assessing Executive Control in Word Retrieval</h5>
-                    <p>Schwartz, Brown, Ferrara, <em>Presented at Clinical Aphasiology </em>(2015)</p>
+                    <h5>"Reading Involves Shared Experience" (R.I.S.E.) eBook Project</h5>
+                    <p>Bimodal-bilingual ebooks. Available in ASL-English, as well as 13 other signed and spoken languages. Now accessible on Youtube and iTunes</p>
                   </div>
                 </div>
               </a>
@@ -79,12 +79,26 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="https://riseebooks.wixsite.com/access/about-r-i-s-e" title="Rise Books">
-                <img alt="Rise Book" src={RISE_3} />
+              <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12741" title="One- vs two-handed shapes paper">
+                <img alt="ASL shapes" src={TISLR_IMG} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>"Reading Involves Shared Experience" (R.I.S.E.) eBook Project</h5>
-                    <p>Bimodal-bilingual ebooks. Available in ASL-English, as well as 13 other signed and spoken languages. Now accessible on Youtube and iTunes</p>
+                    <h5>Manual Movement in Sign Languages: One Hand Versus Two in Communicating Shapes</h5>
+                    <p>Ferrara, C., Napoli, D.J. (2019). <em>Cognitive Science</em></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div className="columns portfolio-item">
+            <div className="item-wrap">
+              <a href={TISLR} title="Handshape, Movement, and Geometry: Communicating shapes in sign languages">
+                <img alt="TISLR13 poster" src={Handshape_img} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>"Handshape, Movement, and Geometry: Communicating shapes in sign languages"</h5>
+                    <p>Ferrara, C., Napoli, D.J. (2019). <em>TISLR13 Conference</em></p>
                   </div>
                 </div>
               </a>

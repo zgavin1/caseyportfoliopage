@@ -2,7 +2,7 @@ import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
 import profilePic from "../assets/images/caseyprofile.png";
-import cv_pdf from "../assets/images/pdfs/CFerrara_CV.pdf";
+import cv_pdf from "../assets/images/pdfs/20200808_CFerrara_CV.pdf";
 
 const About = () => (
   <section id="about">
@@ -13,10 +13,13 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-        I received my BA in Psychology and Linguistics from Swarthmore College in 2014. For the past four, years I've worked at Moss Rehabilitation Research Institute
-        studying post-stroke aphasia. In the fall of 2018 I'm excited to begin a Ph.D. program at the University of Chicago working in the Goldin-Meadow lab studying language and cognition.
-        My current research interests include language development across signed and spoken languages, the influence of early
-        linguistic experience on cognitive development, the neural organization of language, linguistic universals, and getsure.
+        I am a thid year PhD student at the University of Chicago researching sign language, gesture, and iconicity.
+        I received my BA in Psychology and Linguistics from Swarthmore College in 2014.
+        From 2014 to 2018 I worked as a research assistant at Moss Rehabilitation Research Institute studying post-stroke aphasia.
+        In the fall of 2018 I joined the UChicago Psychology PhD program in the Goldin-Meadow lab.
+        My past work has explored language and cognition through (1) scalar implicature processing, (2) the interaction of semantic and phonological competition in aphasia, and (3) voxel-based lesion symptom mapping.
+        My current research projects investigate (1) the extent to which ASL signs can be flexibly modified to maximize iconicity, (2) how these modifications compare to those seen in silent gesture, and (3) the intersecting influences of iconicity, perception, and biomechanics on the depiction of shape information in ASL and other sign languages.
+
         </p>
         <div className="row">
           <div className="columns contact-details">
@@ -25,11 +28,8 @@ const About = () => (
               <span>Casey Ferrara</span>
               <br />
               <span>
-                181 Gay St,
-                <br /> Philadelphia, PA 19127
+                Chicago, IL 60616
               </span>
-              <br />
-              <span>(908) 227-3042</span>
               <br />
               <span>caseyferrara@gmail.com</span>
             </p>
