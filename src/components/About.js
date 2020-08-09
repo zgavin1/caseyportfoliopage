@@ -13,7 +13,7 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-        I am a thid year PhD student at the University of Chicago researching sign language, gesture, and iconicity.
+        I am a third year PhD student at the University of Chicago researching sign language, gesture, and iconicity.
         I received my BA in Psychology and Linguistics from Swarthmore College in 2014.
         From 2014 to 2018 I worked as a research assistant at Moss Rehabilitation Research Institute studying post-stroke aphasia.
         In the fall of 2018 I joined the UChicago Psychology PhD program in the Goldin-Meadow lab.
