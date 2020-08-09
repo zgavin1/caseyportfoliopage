@@ -4,7 +4,8 @@ import {
   FaEnvelopeO,
   FaTwitter,
   FaGraduationCap,
-  FaLinkedin
+  FaLinkedin,
+  FaBook
 } from "react-icons/lib/fa";
 // https://gorangajic.github.io/react-icons/fa.html
 
@@ -27,7 +28,7 @@ const SocialLinks = () => (
     </li>
     <li>
       <a href="https://www.researchgate.net/profile/Casey_Ferrara">
-        <FaResearchGate />
+        <FaBook />
       </a>
     </li>
     <li>
